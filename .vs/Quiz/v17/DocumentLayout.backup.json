@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Quiz\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|c:\\users\\pc\\source\\repos\\quiz\\pages\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|solutionrelative:pages\\quiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|c:\\users\\pc\\source\\repos\\quiz\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|c:\\users\\pc\\source\\repos\\quiz\\pages\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|solutionrelative:pages\\question.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|c:\\users\\pc\\source\\repos\\quiz\\pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|solutionrelative:pages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|c:\\users\\pc\\source\\repos\\quiz\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA84B64F-5C01-4ADC-8C50-F4EFCD40A673}|Quiz.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Quiz.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Quiz.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Quiz.cshtml",
+              "RelativeToolTip": "Pages\\Quiz.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T08:50:20.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T10:35:59.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T10:34:27.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Question.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Question.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Quiz\\Pages\\Question.cshtml",
+              "RelativeToolTip": "Pages\\Question.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T10:18:10.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Quiz\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Quiz\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:10:39.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

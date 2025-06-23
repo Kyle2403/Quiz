@@ -1,0 +1,71 @@
+﻿@page
+@model Quiz.Pages.QuestionModel
+@{
+    ViewData["Title"] = "Questions";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Question Management</h1>
+
+    @{
+        var index = 1;
+    }
+
+    @foreach (var question in Model.Questions)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Question @index: @question.Key.QuestionText</h5>
+                <ul class="list-group list-group-flush mb-3">
+                    @foreach (var answer in question)
+                    {
+                        <li class="list-group-item">
+                            @if (answer.IsCorrect)
+                            {
+                                <strong>@answer.AnswerText</strong>
+                            }
+                            else
+                            {
+                                @answer.AnswerText
+                            }
+                        </li>
+                    }
+                </ul>
+                <div class="d-flex gap-2">
+                    <form method="get" asp-page="/Edit" asp-route-id="@question.Key.QuestionId">
+                        <button type="submit" class="btn btn-primary">Edit</button>
+                    </form>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@question.Key.QuestionId">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        index++;
+    }
+
+    <h2 class="mt-5 mb-3">Create New Question</h2>
+
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Question Text</label>
+            <textarea asp-for="QuestionInputModel.Text" class="form-control" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Answers</label>
+            @for (int i = 0; i < 4; i++)
+            {
+                <div class="input-group mb-2">
+                    <input asp-for="QuestionInputModel.Answers[i]" class="form-control" required placeholder="Answer @(i + 1)" />
+                    <div class="input-group-text">
+                        <input type="radio" asp-for="QuestionInputModel.CorrectOptionIndex" value="@i" />
+                        <span class="ms-1">Correct</span>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <button type="submit" class="btn btn-success">Create Question</button>
+    </form>
+</div>

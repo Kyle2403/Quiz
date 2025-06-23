@@ -1,0 +1,33 @@
+﻿@page "{id:int}"
+@model Quiz.Pages.EditModel
+@{
+}
+<div class="container">
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Question Text</label>
+        <textarea asp-for="QuestionInputModel.Text" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-4">
+        <label class="form-label">Answers</label>
+        <ul class="list-group list-group-flush">
+            @for (int i = 0; i < Model.QuestionInputModel.Answers.Count; i++)
+            {
+                <li class="list-group-item">
+                    <div class="input-group">
+                        <input class="form-control" asp-for="QuestionInputModel.Answers[i]" />
+                         <div class="input-group-text">
+                                
+                                <input type="radio" asp-for="QuestionInputModel.CorrectOptionIndex" value="@i" />
+                                <span class="ms-1">Correct</span>
+                         </div>
+                     </div>
+                </li>
+            }
+        </ul>
+        <input type="hidden" asp-for="Id" value="@Model.Questions.First().QuestionId" />
+    </div>
+    <button type="submit" class="btn btn-success">Save Changes</button>
+</form>
+</div>

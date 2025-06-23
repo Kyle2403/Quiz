@@ -1,0 +1,39 @@
+﻿@page
+@model Quiz.Pages.QuizModel
+@{
+	ViewData["Title"] = "Take Quiz";
+}
+
+<div class="container">
+<h1 class="mb-4">Question List</h1>
+@{
+	var index = 0;
+}
+<form method="post">
+@foreach (var question in Model.Questions)
+{
+
+	<div class="card mb-3">
+		@{var count = index +1;}
+		<div class="card-body">
+			<h3 class="card-title">Question @count: @question.Key.QuestionText</h3>
+			<input type="hidden" asp-for="UserAnswers[@index].QuestionText" value="@question.Key.QuestionText" />
+			<ul class="list-group list-group-flush">
+			
+				@foreach (var answer in question)
+				{
+					<li class="list-group-item">
+						<label style="display: flex; align-items: center; gap: 8px;">
+							<input type="radio" asp-for="@Model.UserAnswers[index].AnswerText" value="@answer.AnswerText" required />
+							@answer.AnswerText
+						</label>
+					</li>
+				}
+			</ul>
+		</div>
+	</div>
+	index++;
+}
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
